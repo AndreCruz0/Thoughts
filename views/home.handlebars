@@ -1,0 +1,53 @@
+<div class="home-header">
+    {{#if search}}
+        <h1>Você está buscando por: <span>{{search}}</span></h1>
+        {{#if MindPostsQty}}
+            <p>Foram encontrados <span>{{MindPostsQty}}</span> pensamento(s)</p>
+        {{else}}
+            <p>Nenhum pensamento encontrado para o termo <span>{{search}}</span></p>
+        {{/if}}
+    {{else}}
+        <h1>Conheça alguns dos nossos <span>Pensamentos</span>:</h1>
+    {{/if}}
+
+    <!-- Formulário de busca -->
+    <form action="/" method="GET">
+        <input type="text" name="search" placeholder="Está buscando por algo?" value="{{search}}">
+        <input type="submit" class="btn" value="Buscar">
+    </form>
+</div>
+
+<!-- Container de ordenação -->
+<div class="order-container">
+    <span>Ordenar por:</span>  
+
+    <!-- Ordenar do mais novo pro mais antigo -->
+   <form action="/" method="GET">
+    <input type="hidden" name="search" value="{{search}}">
+    <input type="hidden" name="order" value="new">
+    <button type="submit"><i class="bi bi-arrow-up"></i> Mais novos</button>
+</form>
+
+<form action="/" method="GET">
+    <input type="hidden" name="search" value="{{search}}">
+    <input type="hidden" name="order" value="old">
+    <button type="submit"><i class="bi bi-arrow-down"></i> Mais antigos</button>
+</form>
+
+
+    <a href="/">Limpar</a>
+</div>
+
+<!-- Lista de pensamentos -->
+<div class="toughts-container">
+    {{#each posts}}
+        <figure>
+            <blockquote>
+                {{this.title}}
+            </blockquote>
+            <figcaption>Publicado por: {{this.User.name}}</figcaption>
+        </figure>
+    {{else}}
+        <p class="no-posts">Nenhum pensamento encontrado.</p>
+    {{/each}}
+</div>
