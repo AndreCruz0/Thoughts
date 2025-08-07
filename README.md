@@ -40,25 +40,25 @@ Este é um mini projeto full stack desenvolvido para fins de **estudo prático**
 
 ### 🏠 Tela Inicial
 
-<img src="./public/screenshots/home.png" alt="Home" width="700"/>
+<img src="/screenshots/home.png" alt="Home" width="700"/>
 
 ---
 
 ### 📋 Dashboard
 
-<img src="./public/screenshots/dashboard.png" alt="Dashboard" width="700"/>
+<img src="/screenshots/dashboard.png" alt="Dashboard" width="700"/>
 
 ---
 
 ### 🔐 Tela de Login
 
-<img src="./public/screenshots/login.png" alt="Login" width="700"/>
+<img src="/screenshots/login.png" alt="Login" width="700"/>
 
 ---
 
 ### 🧾 Tela de Registro
 
-<img src="./public/screenshots/register.png" alt="Registro" width="700"/>
+<img src="/screenshots/register.png" alt="Registro" width="700"/>
 
 ---
 
