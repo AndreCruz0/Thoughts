@@ -40,25 +40,25 @@ Este é um mini projeto full stack desenvolvido para fins de **estudo prático**
 
 ### 🏠 Tela Inicial
 
-<img src="/screenshots/home.png" alt="Home" width="700"/>
+<img src="./public/screenshots/home.png" alt="Home" width="700"/>
 
 ---
 
 ### 📋 Dashboard
 
-<img src="/screenshots/dashboard.png" alt="Dashboard" width="700"/>
+<img src="./public/screenshots/dashboard.png" alt="Dashboard" width="700"/>
 
 ---
 
 ### 🔐 Tela de Login
 
-<img src="/screenshots/login.png" alt="Login" width="700"/>
+<img src="./public/screenshots/login.png" alt="Login" width="700"/>
 
 ---
 
 ### 🧾 Tela de Registro
 
-<img src="/screenshots/register.png" alt="Registro" width="700"/>
+<img src="./public/screenshots/register.png" alt="Registro" width="700"/>
 
 ---
 
@@ -75,16 +75,13 @@ Este é um mini projeto full stack desenvolvido para fins de **estudo prático**
    npm install
    ```
 
-3. **Configure o banco de dados:**
-   - Renomeie o arquivo `.env.example` para `.env`
-   - Configure as variáveis de ambiente (porta, sessão, DB, etc.)
 
-4. **Rode as migrations e inicie o projeto:**
+3. **Rode as migrations e inicie o projeto:**
    ```bash
    npm start
    ```
 
-5. **Acesse o navegador:**
+4. **Acesse o navegador:**
    ```
    http://localhost:3001
    ```
