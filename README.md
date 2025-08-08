@@ -34,9 +34,13 @@ Este é um mini projeto full stack desenvolvido para fins de **estudo prático**
 
 ---
 
+## 🎥 Gif de funcionamento
+
+![Gif de Funcionamento](./public/gifs/funcionamento.gif)
+
 ## 🖼️ Screenshots
 
-> 🧩 Abaixo, você pode inserir as capturas de tela das principais páginas do projeto:
+> 🧩 Abaixo, as capturas de tela das principais páginas do projeto:
 
 ### 🏠 Tela Inicial
 
@@ -59,6 +63,7 @@ Este é um mini projeto full stack desenvolvido para fins de **estudo prático**
 ### 🧾 Tela de Registro
 
 <img src="./public/screenshots/register.png" alt="Registro" width="700"/>
+
 
 ---
 
